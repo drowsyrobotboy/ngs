@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Angular JS Demo 1</title>
+	</head>
+    <body>
+        <input type="text" id="input" onchange="onCh()"/>
+        <button onclick="onCh()">Go!</button>
+        <br />
+        <span id="output"></span>
+        <script type="text/javascript">
+            function onCh() {
+               document.getElementById("output").innerHTML=document.getElementById("input").value;
+            }
+        </script>
+    </body>
+</html>
